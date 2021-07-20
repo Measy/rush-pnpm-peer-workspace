@@ -1,0 +1,16 @@
+{
+  "name": "node-rig",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "toolconfig",
+    "config"
+  ],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

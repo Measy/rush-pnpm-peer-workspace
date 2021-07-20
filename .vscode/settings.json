@@ -1,0 +1,38 @@
+{
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "tslint.autoFixOnSave": true,
+  "files.exclude": {
+    "USE_GITIGNORE": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "lib/package.json": true,
+    // "**/node_modules": true,
+    "cd": true,
+    "**/.npmignore": true,
+    // "**/dist": true,
+    // ".vscode/settings.json": true,
+
+    // "scripts": true,
+    // ".husky": true,
+    "external": true
+    // "pages/**/tsconfig.json": true,
+    // ".eslintrc.js": true,
+    // "commitlint.config.js": true,
+    // "lerna.json": true,
+    // ".npmrc": true,
+    // "**/babel.config.json": true
+  },
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  //   "source.fixAll.stylelint": true
+  // },
+  "path-autocomplete.pathMappings": {
+    "@lib": "${folder}/lib"
+  },
+  "files.associations": { "*.json": "jsonc" },
+  "eslint.packageManager": "pnpm"
+}

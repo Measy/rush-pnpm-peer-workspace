@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/web-rig/profiles/default/tsconfig.json",
+  "exclude": [
+    "**/node_modules",
+    "**/output",
+    "**/dist"
+  ],
+  "include": [
+    "./src",
+    "./typings.d.ts"
+  ]
+}
